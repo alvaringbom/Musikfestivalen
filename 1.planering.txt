@@ -1,0 +1,9 @@
+spara API till local storage
+1. Hämta data från API
+2. Säkerställ att allt är hämtat och klart innan allt annat
+3. Header och footer, sidor för artister scener och spelschema?
+4. Landningssida med alla artister och all information
+5. Mer info om scener och ett separat spelschema?
+6. Engelska/svenska? konsekvent
+7. Styling: mörkt, allt samlat på en sida?
+8. Presentera dag och tid på ett annat sätt?
