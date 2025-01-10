@@ -1,29 +1,29 @@
-@import url('https://fonts.googleapis.com/css2?family=Barriecito&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Homenaje&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Barriecito&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Homenaje&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bungee&display=swap");
 
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 html,
 body {
-    line-height: 1.6;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    height: 100%;
-    background-color: rgb(27, 0, 65);
-    color: aliceblue;
-    font-family: homenaje;
-    scroll-behavior: smooth;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  background-color: rgb(27, 0, 65);
+  color: aliceblue;
+  font-family: homenaje;
+  scroll-behavior: smooth;
 }
 
 /* LOGO ---------------------------*/
 .logo {
-    margin-top: 2rem;
+  margin-top: 2rem;
 }
 
 /* FOOTER & NAVBAR---------------------------*/
@@ -31,253 +31,253 @@ body {
 .footer,
 .footer-arrangör,
 .footer-links ul {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 footer {
-    background-color: rgb(19, 0, 48);
-    padding: 2rem;
-    margin-top: 5rem;
+  background-color: rgb(19, 0, 48);
+  padding: 2rem;
+  margin-top: 5rem;
 }
 
 ul,
-.nav-link-container{
-    list-style: none;
-    padding: 0;
-    margin: 0;
+.nav-link-container {
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 .nav-links a,
 .footer-links a {
-    text-decoration: none;
-    color: aliceblue;
+  text-decoration: none;
+  color: aliceblue;
 }
 
 .nav-links {
-    display: flex;
-    flex-direction: row;
-    gap: 2rem;
-    list-style: none;
-    font-weight: bold;
-    font-size: 24px;
-    font-family: barriecito;
-    align-items: center;
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  list-style: none;
+  font-weight: bold;
+  font-size: 24px;
+  font-family: barriecito;
+  align-items: center;
 }
 
 .nav-links-1:hover,
 .nav-links-2:hover,
 .nav-links-3:hover {
-    transform: translateY(-3px);
-    text-decoration: double;
-    text-underline-offset: 0.5rem;
+  transform: translateY(-3px);
+  text-decoration: double;
+  text-underline-offset: 0.5rem;
 }
 
 .nav-links-1:hover {
-    text-shadow: 10px 10px 10px rgb(179, 0, 255);
+  text-shadow: 10px 10px 10px rgb(179, 0, 255);
 }
 
 .nav-links-2:hover {
-    text-shadow: 10px 10px 10px rgb(255, 162, 0);
+  text-shadow: 10px 10px 10px rgb(255, 162, 0);
 }
 
 .nav-links-3:hover {
-    text-shadow: 10px 10px 10px rgb(22, 133, 252);
+  text-shadow: 10px 10px 10px rgb(22, 133, 252);
 }
 
 .footer-arrangör h2 {
-    font-size: 28px;
-    margin-bottom: 0rem;
+  font-size: 28px;
+  margin-bottom: 0rem;
 }
 
 .stockholm-stad-logo {
-    width: 150px;
-    height: auto;
-    transition: filter 0.3s ease;
+  width: 150px;
+  height: auto;
+  transition: filter 0.3s ease;
 }
 
 .stockholm-stad-logo:hover {
-    filter: brightness(70%);
+  filter: brightness(70%);
 }
 
 .footer-links li:hover {
-    transform: translateY(-1px);
+  transform: translateY(-1px);
 }
 
 .footer-links li {
-    font-size: 20px;
+  font-size: 20px;
 }
 
 /* RUBRIKER: ARTISTS - STAGES - PROGRAM */
 .artists-heading,
 .stages-heading,
 .program-heading {
-    font-family: Barriecito;
-    font-size: 56px;
-    font-style: italic;
-    margin: 0px;
+  font-family: Barriecito;
+  font-size: 56px;
+  font-style: italic;
+  margin: 0px;
 }
 
 .artists-heading {
-    text-shadow: 10px 10px 10px rgb(179, 0, 255);
+  text-shadow: 10px 10px 10px rgb(179, 0, 255);
 }
 
 .stages-heading {
-    text-shadow: 10px 10px 10px rgb(255, 162, 0);
+  text-shadow: 10px 10px 10px rgb(255, 162, 0);
 }
 
 .program-heading {
-    text-shadow: 10px 10px 10px rgb(22, 133, 252);
+  text-shadow: 10px 10px 10px rgb(22, 133, 252);
 }
 
 .artists-heading:hover,
 .stages-heading:hover,
 .program-heading:hover {
-    cursor: default;
+  cursor: default;
 }
 
 main section {
-    margin: 5rem;
+  margin: 5rem;
 }
 
 #artist-container,
 #stage-container,
 #program-container {
-    display: flex;
-    gap: 16px;
-    padding: 16px;
-    margin: 0 auto;
-    justify-content: center;
-    flex-flow: column wrap;
-    align-items: center;
+  display: flex;
+  gap: 16px;
+  padding: 16px;
+  margin: 0 auto;
+  justify-content: center;
+  flex-flow: column wrap;
+  align-items: center;
 }
 
 /* ARTIST-KORT ---------------------------*/
 .artist-card {
-    background-color: rgba(0, 0, 0, 0);
-    border-radius: 20px;
-    box-shadow: 0px 4px 15px rgb(179, 0, 255);
-    overflow: hidden;
-    text-align: center;
-    padding: 16px;
-    transition: transform 0.2s, box-shadow 0.2s;
-    text-align: left;
-    width: 350px;
-    font-size: 20px;
+  background-color: rgba(0, 0, 0, 0);
+  border-radius: 20px;
+  box-shadow: 0px 4px 15px rgb(179, 0, 255);
+  overflow: hidden;
+  text-align: center;
+  padding: 16px;
+  transition: transform 0.2s, box-shadow 0.2s;
+  text-align: left;
+  width: 350px;
+  font-size: 20px;
 }
 
 .artist-card:hover {
-    transform: translateY(-3px);
-    box-shadow: 0px 10px 20px rgb(179, 0, 255);
+  transform: translateY(-3px);
+  box-shadow: 0px 10px 20px rgb(179, 0, 255);
 }
 
 .artist-card h3 {
-    font-size: 46px;
-    margin: 0;
-    text-align: center;
+  font-size: 46px;
+  margin: 0;
+  text-align: center;
 }
 
 .artist-info p {
-    text-align: left;
-    margin: 0.5rem;
+  text-align: left;
+  margin: 0.5rem;
 }
 
 /* STAGE-KORT ---------------------------*/
 .stage-card {
-    background-color: #0033ff00;
-    box-shadow: 0px 4px 15px  rgb(255, 162, 0);
-    padding: 40px;
-    transition: box-shadow 0.2s;
-    text-align: center;
-    width: 270px;
-    font-size: 20px;
-    line-height: 0.2;
-    transform: skew(-10deg);
-    overflow: hidden;
-    border-radius: 5px;
+  background-color: #0033ff00;
+  box-shadow: 0px 4px 15px rgb(255, 162, 0);
+  padding: 40px;
+  transition: box-shadow 0.2s;
+  text-align: center;
+  width: 270px;
+  font-size: 20px;
+  line-height: 0.2;
+  transform: skew(-10deg);
+  overflow: hidden;
+  border-radius: 5px;
 }
 
 .stage-info {
-    margin-bottom: -15px;
+  margin-bottom: -15px;
 }
 
 .stage-card h3 {
-    font-family: Barriecito;
-    font-size: 32px;
-    margin: 0;
-    text-align: center;
+  font-family: Barriecito;
+  font-size: 32px;
+  margin: 0;
+  text-align: center;
 }
 
 .area {
-    font-size: 28px;
+  font-size: 28px;
 }
 
 /* PROGRAM-KORT ---------------------------*/
 .program-card {
-    background-color: #0033ff00;
-    border-radius: 5px;
-    box-shadow: 0px 0px 20px  rgb(22, 133, 252);
-    overflow: hidden;
-    text-align: center;
-    padding: 20px;
-    transition: box-shadow 0.2s;
-    font-size: 20px;
-    width: 250px;
+  background-color: #0033ff00;
+  border-radius: 5px;
+  box-shadow: 0px 0px 20px rgb(22, 133, 252);
+  overflow: hidden;
+  text-align: center;
+  padding: 20px;
+  transition: box-shadow 0.2s;
+  font-size: 20px;
+  width: 250px;
 }
 
 .program-card h3 {
-    font-family: Barriecito;
-    font-size: 46px;
-    margin: 0;
-    text-align: center;
+  font-family: Barriecito;
+  font-size: 46px;
+  margin: 0;
+  text-align: center;
 }
 
 .program-artist a {
-    font-size: 28px;
-    text-decoration: none;
-    color: aliceblue;
-    text-align: center;
+  font-size: 28px;
+  text-decoration: none;
+  color: aliceblue;
+  text-align: center;
 }
 
 .program-artist:hover {
-    transform: translateY(-1px);
+  transform: translateY(-1px);
 }
 
 .program-info {
-    font-size: 20px;
-    margin: 0px;
-    margin-left: 2rem;
+  font-size: 20px;
+  margin: 0px;
+  margin-left: 2rem;
 }
 
 /* MEDIA QUERIES ---------------------------*/
 /* 768 */
 @media (min-width: 768px) {
-    #artist-container,
-    #stage-container,
-    #program-container {
-        flex-flow: row wrap;
-        align-items: stretch;
-    }
+  #artist-container,
+  #stage-container,
+  #program-container {
+    flex-flow: row wrap;
+    align-items: stretch;
+  }
 
-    footer {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        gap: 100px;
-        align-items: center;
-    }
+  footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 100px;
+    align-items: center;
+  }
 }
 
 /* DESKTOP */
 @media (min-width: 1024px) {
-    .artist-card {
-        width: 400px;
-    }
+  .artist-card {
+    width: 400px;
+  }
 
-    .footer-links ul {
-        display: flex;
-        flex-direction: row;
-        gap: 2rem;
-    }
+  .footer-links ul {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+  }
 }
